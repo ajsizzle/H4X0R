@@ -3,8 +3,11 @@ iOS application that utilizes the Hacker News API to display the latest articles
 
 # Project Goals
 📚 Learn to work with SwiftUI Lists and the Identifiable Protocol.
+
 🗺 Use a Naviagtion View to navigate between the List and a detail view.
+
 🧠 Advanced State Management using the Observer Design Pattern.
+
 🌎 Learn to incorporate a UIKit component into SwiftUI by using WebKit to display web pages in the app.
 
 # Demo
