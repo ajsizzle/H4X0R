@@ -11,7 +11,7 @@ iOS application that utilizes the Hacker News API to display the latest articles
 🌎 Learn to incorporate a UIKit component into SwiftUI by using WebKit to display web pages in the app.
 
 # Demo
-1. Copy git repo
+1. Clone git repo
 2. Build and run in Xcode
 3. Must be downloaded on device running iOS 13 or newer
 
