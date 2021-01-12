@@ -1,4 +1,4 @@
-# H4X0R
+# H4X0R News
 iOS application that utilizes the Hacker News API to display the latest articles from the popular news forum. 
 
 # Project Goals
