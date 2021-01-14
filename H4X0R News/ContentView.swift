@@ -10,15 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List {
-                Text("Hello, world!")
-                    .padding()
-                Text("Good bye world")
-                    .padding()
+            List(posts) { post in
+                Text(post.title)
             }
             .navigationBarTitle("H4X0R News")
         }
-        
     }
 }
 
@@ -32,3 +28,9 @@ struct Post: Identifiable {
     let id: String
     let title: String
 }
+
+let posts = [
+    Post(id: "1", title: "Hello"),
+    Post(id: "2", title: "Hola"),
+    Post(id: "3", title: "Bonjour")
+]
